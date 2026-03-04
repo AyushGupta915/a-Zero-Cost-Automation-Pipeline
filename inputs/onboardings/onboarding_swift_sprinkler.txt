@@ -1,0 +1,8 @@
+Onboarding Call Transcript - Swift Sprinkler Co
+
+Business hours Monday-Friday 8 AM-4 PM Central.
+Office address: 789 Sprinkler Lane, San Antonio, TX 78201.
+Emergency: any sprinkler activation or leak.
+Transfer immediately to on-call (210-555-9999).
+If fails: apologize and say we will call back ASAP.
+Never create jobs in ServiceTitan.

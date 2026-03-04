@@ -1,0 +1,8 @@
+Demo Call Transcript - Acme Fire Protection
+
+Caller: Hi this is Mike from Acme Fire Protection in Austin Texas. We are a full-service fire sprinkler and alarm company.
+We get a lot of after-hours emergency calls like sprinkler leaks and fire alarms going off.
+Right now our receptionist has to handle everything and it's too much.
+We use ServiceTrade for our jobs but we never want the AI to automatically create any jobs in ServiceTrade.
+Business hours are Monday to Friday 8 AM to 5 PM Central Time.
+After hours we want emergency calls routed to our on-call technician.

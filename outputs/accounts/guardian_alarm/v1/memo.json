@@ -1,0 +1,29 @@
+{
+  "account_id": "guardian_alarm",
+  "company_name": "guardian alarm systems",
+  "business_hours": {
+    "days": "monday_to_friday",
+    "start": "9 am",
+    "end": "5 pm",
+    "timezone": "pst"
+  },
+  "office_address": null,
+  "services_supported": [
+    "security and fire alarms"
+  ],
+  "emergency_definition": [
+    "immediate dispatch"
+  ],
+  "emergency_routing_rules": [],
+  "non_emergency_routing_rules": null,
+  "call_transfer_rules": {
+    "timeout_seconds": 120,
+    "retries": 3,
+    "fail_message": "please call back later"
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "go to monitoring center",
+  "office_hours_flow_summary": null,
+  "questions_or_unknowns": [],
+  "notes": "none"
+}

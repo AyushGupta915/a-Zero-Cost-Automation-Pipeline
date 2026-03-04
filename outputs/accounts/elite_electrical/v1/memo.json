@@ -1,0 +1,41 @@
+{
+  "account_id": "elite_electrical",
+  "company_name": "Elite Electrical",
+  "business_hours": {
+    "days": "Monday-Friday",
+    "start": "7:30 AM",
+    "end": "5 PM",
+    "timezone": "null"
+  },
+  "office_address": "null",
+  "services_supported": [
+    "wiring",
+    "panel upgrades",
+    "emergency power outages"
+  ],
+  "emergency_definition": [
+    "null"
+  ],
+  "emergency_routing_rules": [
+    {
+      "who": "John",
+      "order": "1",
+      "fallback": "null"
+    }
+  ],
+  "non_emergency_routing_rules": "null",
+  "call_transfer_rules": {
+    "timeout_seconds": "1",
+    "retries": "3",
+    "fail_message": "null"
+  },
+  "integration_constraints": [
+    "null"
+  ],
+  "after_hours_flow_summary": "null",
+  "office_hours_flow_summary": "null",
+  "questions_or_unknowns": [
+    "null"
+  ],
+  "notes": "null"
+}

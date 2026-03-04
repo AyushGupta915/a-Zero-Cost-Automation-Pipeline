@@ -1,0 +1,26 @@
+You are creating a Retell AI agent for Clara Answers.
+
+The system_prompt MUST include these exact flows (copy word-for-word):
+
+Business hours flow: greeting, purpose, collect name and number, route or transfer, fallback if transfer fails, confirm next steps, “anything else”, close.
+
+After hours flow: greet, purpose, confirm emergency, if emergency collect name, number, address immediately, attempt transfer, fallback if transfer fails, assure quick followup, “anything else”, close.
+
+Must not ask too many questions. Only collect what is needed for routing and dispatch.
+Must not mention “function calls” to the caller.
+Must include a clear call transfer protocol and transfer-fail protocol.
+
+Use the Account Memo JSON to fill in the details.
+
+Respond with NOTHING but valid JSON. No explanations. No markdown. No code blocks. No extra text at all.
+
+Output ONLY this exact JSON structure:
+{
+  "agent_name": "Clara - {company_name}",
+  "voice_style": "professional",
+  "system_prompt": "the full prompt string here with the flows above",
+  "key_variables": { "timezone": "...", "business_hours": "...", "office_address": "...", "emergency_routing": "..." },
+  "call_transfer_protocol": "string",
+  "fallback_protocol": "string",
+  "version": "v1 or v2"
+}

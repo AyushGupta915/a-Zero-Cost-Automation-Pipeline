@@ -1,0 +1,33 @@
+{
+  "account_id": "swift_sprinkler",
+  "company_name": "Swift Sprinkler Co",
+  "business_hours": {
+    "days": "Monday-Friday",
+    "start": "8 AM",
+    "end": "4 PM",
+    "timezone": "Central"
+  },
+  "office_address": "789 Sprinkler Lane, San Antonio, TX 78201",
+  "services_supported": [],
+  "emergency_definition": [
+    "any sprinkler activation or leak"
+  ],
+  "emergency_routing_rules": [
+    {
+      "who": "on-call",
+      "order": 1,
+      "fallback": "210-555-9999"
+    }
+  ],
+  "non_emergency_routing_rules": "",
+  "call_transfer_rules": {
+    "timeout_seconds": 0,
+    "retries": 0,
+    "fail_message": "we will call back ASAP"
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "",
+  "office_hours_flow_summary": "",
+  "questions_or_unknowns": [],
+  "notes": "Never create jobs in ServiceTitan"
+}

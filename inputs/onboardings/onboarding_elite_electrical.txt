@@ -1,0 +1,8 @@
+Onboarding Call Transcript - Elite Electrical
+
+Business hours: Monday-Friday 7:30 AM-5:00 PM Central.
+Emergency definition: power outage, sparking wires, fire alarm.
+Transfer to on-call tech first (555-222-3333), fallback 555-222-4444.
+Timeout 60 seconds.
+Non-emergency during hours to receptionist.
+No ServiceTrade jobs.

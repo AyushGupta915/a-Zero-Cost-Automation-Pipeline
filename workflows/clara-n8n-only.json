@@ -1,0 +1,55 @@
+{
+  "name": "Clara AI Pipeline",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "1",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "position": [300, 300]
+    },
+    {
+      "parameters": {
+        "url": "http://127.0.0.1:5000/run_clara",
+        "method": "GET"
+      },
+      "id": "2",
+      "name": "Run Clara Pipeline",
+      "type": "n8n-nodes-base.httpRequest",
+      "position": [520, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "return [{json:{message:\"Clara pipeline triggered successfully\"}}];"
+      },
+      "id": "3",
+      "name": "Success Message",
+      "type": "n8n-nodes-base.code",
+      "position": [740, 300]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Run Clara Pipeline",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run Clara Pipeline": {
+      "main": [
+        [
+          {
+            "node": "Success Message",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

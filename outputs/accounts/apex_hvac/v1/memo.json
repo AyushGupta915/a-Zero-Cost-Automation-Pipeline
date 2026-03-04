@@ -1,0 +1,36 @@
+{
+  "account_id": "apex_hvac",
+  "company_name": "apex_hvac",
+  "business_hours": {
+    "days": "monday to friday",
+    "start": "8 am",
+    "end": "6 pm",
+    "timezone": "central time"
+  },
+  "office_address": "",
+  "services_supported": [
+    "air conditioning repair",
+    "emergency hvac calls"
+  ],
+  "emergency_definition": [
+    "ac breakdowns in summer"
+  ],
+  "emergency_routing_rules": [
+    {
+      "who": "on-call tech",
+      "order": 1,
+      "fallback": ""
+    }
+  ],
+  "non_emergency_routing_rules": "",
+  "call_transfer_rules": {
+    "timeout_seconds": 0,
+    "retries": 0,
+    "fail_message": ""
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "",
+  "office_hours_flow_summary": "",
+  "questions_or_unknowns": [],
+  "notes": "apex_hvac uses ServiceTitan but never wants automatic job creation"
+}

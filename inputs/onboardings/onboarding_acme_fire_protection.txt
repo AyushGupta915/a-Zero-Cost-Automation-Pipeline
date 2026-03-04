@@ -1,0 +1,11 @@
+Onboarding Call Transcript - Acme Fire Protection
+
+Caller: Okay so confirming everything.
+Business hours confirmed: Monday-Friday 8:00 AM to 5:00 PM Central Time.
+Office address: 123 Main Street, Austin, TX 78701.
+Emergency is any sprinkler leak, fire alarm, or water damage.
+For emergency calls, even after hours, immediately collect name, number, address and transfer to on-call technician (first try mobile 512-555-0101, fallback office 512-555-0202).
+If transfer fails after 60 seconds, tell the customer we will call them back within 15 minutes.
+Non-emergency calls during business hours go to receptionist.
+Never create any ServiceTrade jobs automatically.
+After hours non-emergency: just take message and say we will call back next business day.

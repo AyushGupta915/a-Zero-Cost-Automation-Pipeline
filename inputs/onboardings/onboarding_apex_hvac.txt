@@ -1,0 +1,8 @@
+Onboarding Call Transcript - Apex HVAC
+
+Business hours confirmed Monday-Friday 8:00 AM-6:00 PM Central.
+Office: 456 Industrial Blvd, Houston, TX 77001.
+Emergency: any AC failure that causes no cooling or water leak.
+After hours emergency: collect name, number, address and transfer to on-call (512-777-1111).
+If transfer fails after 45 seconds, assure callback within 30 min.
+Never create ServiceTitan jobs.

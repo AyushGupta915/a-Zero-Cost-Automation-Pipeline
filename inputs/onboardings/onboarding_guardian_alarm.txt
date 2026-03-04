@@ -1,0 +1,6 @@
+Onboarding Call Transcript - Guardian Alarm Systems
+
+Confirmed business hours 9 AM-5 PM.
+Emergency: alarm trigger or fire.
+After hours: collect name, number, address immediately and transfer to monitoring center.
+Fallback: "We will dispatch someone within 10 minutes."

@@ -1,0 +1,7 @@
+Demo Call Transcript - Apex HVAC
+
+Caller: Hello, Sarah from Apex HVAC in Houston. We do air conditioning repair and emergency HVAC calls.
+After hours we get a lot of calls about AC breakdowns in summer.
+We use ServiceTitan but never want automatic job creation.
+Business hours are Monday to Friday 8 AM to 6 PM Central Time.
+Emergency calls should go to our on-call tech.
