@@ -21,6 +21,19 @@ def clean_json_response(text: str) -> str:
         text = text[start:end+1]
     return text
 
+def generate_changelog(old, new):
+    changes = []
+
+    for key in new:
+        if key not in old:
+            changes.append(f"Added {key}")
+        elif old[key] != new[key]:
+            changes.append(f"Updated {key}")
+
+    if not changes:
+        changes.append("No structural changes detected")
+
+    return changes
 
 def get_account_id(filename):
     return filename.replace("demo_", "").replace("onboarding_", "").replace(".txt", "").lower().replace(" ", "_").replace("-", "_")
@@ -125,7 +138,13 @@ def process_onboarding(onboard_path):
         with open(v2_folder / "agent-spec.json", "w", encoding="utf-8") as f:
             json.dump(agent_v2, f, indent=2)
 
-        changelog = f"# Changelog\n\n## v2 - {datetime.now():%Y-%m-%d %H:%M}\nOnboarding updates applied"
+        changes = generate_changelog(memo_v1 if v1_path.exists() else {}, merged)
+
+        changelog = "# Changelog\n\n"
+        changelog += f"## v2 - {datetime.now():%Y-%m-%d %H:%M}\n\n"
+
+        for c in changes:
+            changelog += f"- {c}\n"
 
         with open(v2_folder / "changelog.md", "w", encoding="utf-8") as f:
             f.write(changelog)

@@ -27,6 +27,11 @@ def call_ollama(prompt_template_path, input_text):
         prompt = f.read().replace("{{transcript}}", input_text)
     response = ollama.chat(model="llama3.2", messages=[{"role": "user", "content": prompt}])
     raw = response['message']['content'].strip()
+
+    print("\n----- RAW LLM RESPONSE -----")
+    print(raw)
+    print("----- END RESPONSE -----\n")
+
     cleaned = clean_json_response(raw)
     return cleaned
 
